@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02c05ee384f57d543b3303e17088dfeb, type: 3}
+  m_Name: WorldData 1
+  m_EditorClassIdentifier: 
+  GUID: 5da079982f0b7264bbf081e5607510df
+  SavePlayModeChanges: 0
+  ToggleOSD: 1
+  OSDUpdateRate: 0.05
+  OSDUIScale: 1
+  ToggleCursor: 1
+  SaveWorld: 0
+  LoadWorld: 0
+  Name: Unassigned
+  WorldWidth: 1024
+  WorldHeight: 128
+  Seed: 12345678
+  WorldDirectory: 
+  ChunkSize: 16
+  ChunkLoadRate: 0.1
+  ChunkLoadDistance: 64
+  EnableInputHandler: 1
+  MaxModifyRadius: 3
+  FluidDisabled: 0
+  FluidLayer: 0
+  RenderFluidAsTexture: 0
+  BasicFluid: 0
+  TopDown: 0
+  RunFluidSimulation: 1
+  FluidUpdateRate: 0
+  MaxFluidWeight: 1
+  MinFluidWeight: 0.005
+  StableFluidAmount: 0.0001
+  FluidPressureWeight: 0.2
+  FluidDropAmount: 0.2
+  MainFluidColor:
+    serializedVersion: 2
+    rgba: 3431886124
+  SecondaryFluidColor:
+    serializedVersion: 2
+    rgba: 3437473350
+  FluidTypes: []
+  AllowSurfaceFilling: 1
+  FluidMixingFactor: 0.1
+  LightingDisabled: 0
+  BasicLighting: 0
+  LightBleedAmount: 3
+  LightLayer: 0
+  BlockLightSpread: 18
+  BlockLightTransmission: 5
+  AmbientLightDisabled: 0
+  AmbientLightLayer: 0
+  AmbientLightSpread: 18
+  AmbientLightTransmission: 5
+  UseHeightMap: 0
+  PauseTime: 1
+  TimeFactor: 100
+  DaylightColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  NightColor:
+    serializedVersion: 2
+    rgba: 4282466625
+  SunriseTime: 7
+  SunsetTime: 19
+  DownRes: 2
+  NumberBlurPasses: 3
+  FallingBlocksDisabled: 0
+  FallingBlockLayer: 0
+  FallingBlocksUpdateRate: 0.05
+  OverlapBlendSquares: 0
+  CullHiddenBlocks: 1
+  PixelsPerBlock: 8
+  ZBlockDistance: 1
+  ZLayerFactor: 1
+  BlockLayers: []
